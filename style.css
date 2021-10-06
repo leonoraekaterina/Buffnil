@@ -1,0 +1,59 @@
+body
+{
+	display:flex;
+	flex-direction:column;
+	background-color:cadetblue ;
+}
+#top_field_section
+{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	padding:20px;
+	background-color: cornsilk;
+	flex:1;
+}
+article
+{
+	width:600px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+footer
+{
+	font-size:smaller;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#sunil_picture
+{
+	opacity:80%;
+}
+figcaption
+{
+	font-size: x-small;
+}
+h2
+{
+	display: flex;
+	justify-content: center;
+}
+#bottom_field_section
+{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	padding:50px;
+	background-color: darkgray;
+	font-family:'comic sans MS';
+	justify-content: space-between;
+}
+nav
+{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	padding: 50px;
+	background-color: darksalmon;
+	font-family:'papyrus';
+}
